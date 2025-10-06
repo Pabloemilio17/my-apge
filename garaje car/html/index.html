@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garaje Car</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+   <!-- Video de fondo, debe estar en /video/rally.mp4 -->
+    <video autoplay muted loop id="video-fondo">
+        <source src="/video/porshe gt carrera.mp4" type="video/mp4">
+        Tu navegador no soporta el video de fondo.
+    </video>
+    <!-- Barra superior tipo footer con icono y botones -->
+
+    <div class="container">
+        <h1>Garaje Car</h1>
+
+          <p>Bienvenido a Garaje Car, empresa de renta de vehículos en Guanacaste</p>
+        <div id="menu">
+            <button onclick="mostrarRentar()">Rentar</button>
+            <button onclick="mostrarBuscar(event)">Reservación</button>
+            <button onclick="mostrarBuscar(event)">Modificar</button>
+            <button onclick="mostrarBuscar(event)">Eliminar Reservación</button>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+    <script src="/ts/main-1,2.js"></script>
+</body>
+</html>
